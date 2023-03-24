@@ -1,0 +1,28 @@
+jenkins:
+  systemMessage: "Hello! Welcome to my jenkins instance :)"
+    local:
+        allowsSignup: false
+        enableCaptcha: false
+        users:
+        - id: "jigglypuff"
+          name: "Jigglypuff"
+          properties:
+          - "apiToken"
+          - "myView"
+          - preferredProvider:
+              providerId: "default"
+          - "timezone"
+          - mailer:
+              emailAddress: "jigglypuff@email.com"
+          - "favorite"
+        - id: "najen"
+          name: "Andrea"
+          properties:
+          - "myView"
+          - preferredProvider:
+              providerId: "default"
+          - "timezone"
+          - mailer:
+              emailAddress: "and.bolus@gmail.com"
+          - "apiToken"
+          - "favorite"
